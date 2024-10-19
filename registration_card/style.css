@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e0dee2;
+}
+
+.container {
+    width: 850px; 
+    padding: 40px; 
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-column {
+    width: 48%;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #333;
+    width: 60px;
+    white-space: nowrap; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    max-width: 230px; 
+}
+
+.gender-options {
+    display: flex;
+    align-items: center;
+    gap: 2px; 
+}
+
+.gender-options input {
+    margin-right: 2px;
+}
+
+.form-group.gender {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group .title{
+    padding: 15px 0px 15px 0px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.cancel, .submit {
+    width: 20%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel {
+    background-color: #fc1919;
+    color: white;
+}
+
+.submit {
+    background-color: #05aa58;
+    color: white;
+}
